@@ -1,60 +1,43 @@
-# javascript-complete
+// function countdown(){
+//     console.log(5)
+//     console.log(4)
+//     console.log(3)
+//     console.log(2)
+//     console.log(1)
+// }
 
-// //document.getElementById("count-el").innerText = 100
+// countdown()
 
-// //let count = 0
+// function log(){
+    
+    
+//     console.log(42)
+    
+    
+// }
 
-// //console.log(count)
-// //if i decalre consol before assinging its gonna cause refrence error
+// log()
 
-// //let myage = 25
-
-// //console.log(myage)
-
-// // let firstBatch = 10
-// // let secondBatch = 1000
-// //  let count = firstBatch + secondBatch
-
-
-// //  console.log(count)
-
-
-// //  let myage = 25
-// //  let humanDogRatio = 7
+// let lap1 = 63
+// let lap2 = 64
+// let lap3 = 65
  
-// //  let dogDays = myage * humanDogRatio
+// function total(){
 
-// //  console.log(dogDays)
+//     let total =  lap1+lap2+lap3
+//     console.log(total)
+// }
 
-// //  let count = 10
-// // count = count + 1
+// total()
 
-// // console.log(count)
+let LapsCompleted = 0
 
-// // let bonusPoints = 50
-// // increase = bonusPoints + 100
-// // decrease = increase - 25
-// // increase = decrease + 70
-
-// // finalOutput = increase
-
-// // console.log(finalOutput)
-
-// // let bonusPoints = 50
-// // console.log(bonusPoints)
-// // bonusPoints = bonusPoints +50
-// // console.log(bonusPoints)
-// // bonusPoints = bonusPoints -25
-// // console.log(bonusPoints)
-// // bonusPoints = bonusPoints + 70
-// // console.log(bonusPoints)
-
-// //intialize the count = 0
-// //listen for clicks on the increament button
-// //increament the count varribale when the button is clicked
-
-// //change the count-el in the html to refect the cnew count 
-
-function myMessage(){
-    console.log("the button was clicked")
+function totalLaps(){
+    LapsCompleted = LapsCompleted+1
 }
+
+totalLaps()
+totalLaps()
+totalLaps()
+
+console.log(LapsCompleted)

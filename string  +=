@@ -1,0 +1,23 @@
+let countEl = document.getElementById("count-el") //pass in arguments
+
+let saveEl = document.getElementById("save-el")
+
+
+ console.log(saveEl)
+
+
+let count = 0
+function increment(){
+    count += 1
+    countEl.innerText = count //to manupulate data that we want to see into the screen
+
+
+}
+
+function save(){
+
+    let countSTR = count + " - "
+
+    saveEl.innerText += countSTR
+    console.log(count)
+}
